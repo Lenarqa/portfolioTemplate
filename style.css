@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #2b2a2c;
+}
+
+button{
+    border: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: #2b2a2c;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* title */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.logo-wrapper{
+    display: flex;
+    max-width: 180px;
+}
+
+.logo{
+    background-color: #2b2a2c;
+    border: 1px solid #2b2a2c;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+
+.logo-content{
+    margin-left: 10px;
+}
+
+.logo-main-title{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.logo-title{
+    color: #8f8f90;
+    font-size: 12px;
+}
+
+/* nav */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 45%;
+}
+
+.nav-item{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .4s linear;
+}
+
+.nav-item:after{
+    display: block;
+    content: "";
+    background-color: #2b2a2c;
+    height: 3px;
+    width: 100%;
+    opacity: 0;
+    transition: all .4s linear;
+}
+
+.nav-item:hover{
+    text-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.nav-item:hover:after{
+    opacity: 1;
+}
+
+.nav-btn{
+    background: transparent;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 12px 32px;
+    border: 2px solid #2b2a2c;
+    border-radius: 20px;
+    transition: all .4s linear;
+}
+
+.nav-btn:hover{
+    color: #fff;
+    background-color: #2b2a2c;
+}
+

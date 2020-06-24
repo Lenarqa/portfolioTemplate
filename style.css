@@ -291,6 +291,14 @@ body{
     font-weight: 700;
 }
 
+.btn-wrapper{
+    margin: 0 auto;    
+}
+
+.btn-works{
+    padding: 13px 22px;
+    font-size: 16px;
+}
 
 
 

@@ -357,4 +357,104 @@ body{
     margin-right: 30px;
 }
 
+/* testimonial */
 
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.testimonial-top-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./image/testimonial-top-content-bg.png');
+    height: 230px;
+}
+
+.top-content-text{
+    max-width: 60%;
+    font-size: 14px;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.testimonial-bottom-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.testimonial-man-img{
+    position: absolute;
+    border: 5px solid #efefef;
+    border-radius: 50%;
+    top: -50%;
+}
+
+.testimonial-text-content{
+    padding-top: 60px;
+    text-align: center;
+}
+
+.man-work-place{
+    padding: 10px 0;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 300;
+    color: #717072;
+}
+
+/*stars*/
+.reviewStars-input input:checked ~ label, .reviewStars-input label, .reviewStars-input label:hover, .reviewStars-input label:hover ~ label {
+    background: url('http://positivecrash.com/wp-content/uploads/ico-s71a7fdede6.png') no-repeat;
+}
+
+.reviewStars-input {
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+    float: left;
+}
+
+.reviewStars-input input {
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+
+    width: 43px;
+    height: 40px;
+
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+  
+.reviewStars-input input:checked ~ label {
+    background-position: 0 -40px;
+    height: 40px;
+    width: 43px;
+}
+
+.reviewStars-input label {
+    background-position: 0 0;
+    height: 40px;
+    width: 43px;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.reviewStars-input label:hover, .reviewStars-input label:hover ~ label {
+    background-position: 0 -40px;
+    height: 40px;
+    width: 43px;
+}

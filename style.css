@@ -780,3 +780,80 @@ body{
     }
 }
 
+@media (max-width: 570px){
+    /* nav */
+    .nav{
+        flex-wrap: wrap;
+    }
+    
+    .nav-btn{
+        margin-top: 10px;
+    }
+
+    .btn-wrapper button:nth-child(1){
+        margin-bottom: 10px;
+    }
+
+    /* work */
+    .work-section{
+        padding-bottom: 0;
+    }
+
+    /* about me */
+    .about-me{
+        padding: 30px 0;
+    }
+
+    .about-me-img{
+        padding-top: 0;
+    }
+
+    .me-bottom-title{
+        padding-bottom: 10px;
+    }
+
+    .me-text{
+        padding:0 10px;
+    }
+
+    .about-btn-wrapper{
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .about-btn-wrapper .about-me-btn:nth-child(1){
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .about-btn-wrapper .about-me-btn:nth-child(2){
+        width: 70%;
+    }
+
+    /* testimonial */
+    .testimonial{
+        padding: 30px 0;
+    }
+
+    .top-content-text{
+        max-width: 90%;
+    }
+
+    .testimonial-man-img{
+        top: 8px;
+    }
+
+    .testimonial-text-content{
+        padding-top:130px;
+    }
+
+    .footer-nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* .footer-btn{
+        margin: 0 auto;
+    } */
+}
+

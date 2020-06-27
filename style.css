@@ -738,6 +738,11 @@ body{
         padding-top: 80px;
     }
 
+    .about-me-img-bg{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
     /* blogs */
     .blog{
         padding-bottom: 50px;
@@ -783,12 +788,9 @@ body{
 @media (max-width: 570px){
     /* nav */
     .nav{
+        align-items: center;
         flex-wrap: wrap;
-    }
-    
-    .nav-btn{
-        margin-top: 10px;
-    }
+    } 
 
     .btn-wrapper button:nth-child(1){
         margin-bottom: 10px;
@@ -857,3 +859,9 @@ body{
     } */
 }
 
+
+@media(max-width:370px){
+    .nav-btn{
+        margin-top: 10px;
+    }
+}
